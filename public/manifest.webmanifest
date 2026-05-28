@@ -1,0 +1,25 @@
+{
+  "name": "MacroLift",
+  "short_name": "MacroLift",
+  "description": "A private local-only macro and workout tracker.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#16a34a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/macrolift-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

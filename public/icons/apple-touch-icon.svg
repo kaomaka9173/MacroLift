@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="MacroLift app icon">
+  <rect width="180" height="180" rx="38" fill="#050505"/>
+  <circle cx="90" cy="87" r="64" fill="#1f2937"/>
+  <path d="M41 109V56h21l28 36 28-36h21v53h-20V86l-23 29H84L61 86v23H41z" fill="#16a34a"/>
+  <path d="M35 131h110" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M26 119v24M154 119v24M43 123v16M137 123v16" stroke="#16a34a" stroke-width="9" stroke-linecap="round"/>
+</svg>
