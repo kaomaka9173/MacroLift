@@ -1,7 +1,17 @@
 const CACHE_NAME = "macrolift-shell-v1";
 const BASE_PATH = new URL(self.registration.scope).pathname;
 const fromBase = (path) => `${BASE_PATH}${path}`.replace(/\/{2,}/g, "/");
-const APP_SHELL = [BASE_PATH, fromBase("index.html"), fromBase("manifest.webmanifest"), fromBase("icons/macrolift-icon.svg")];
+const APP_SHELL = [
+  BASE_PATH,
+  fromBase("index.html"),
+  fromBase("manifest.webmanifest"),
+  fromBase("favicon.svg"),
+  fromBase("apple-touch-icon.png"),
+  fromBase("icons/icon-192.png"),
+  fromBase("icons/icon-512.png"),
+  fromBase("icons/maskable-512.png"),
+  fromBase("icons/macrolift-icon.svg"),
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
