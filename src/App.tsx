@@ -43,11 +43,10 @@ function App() {
     <div className="app-shell">
       <header className="app-header">
         <div>
-          <p className="eyebrow">{todayLabel}</p>
-          <h1>MacroLift</h1>
+          <p className="header-date">{todayLabel}</p>
         </div>
-        <div className="brand-mark" aria-hidden="true">
-          ML
+        <div className="brand-mark">
+          <img src={`${import.meta.env.BASE_URL}icons/macrolift-icon.svg`} alt="MacroLift app icon" />
         </div>
       </header>
 
